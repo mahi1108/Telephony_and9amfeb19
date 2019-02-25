@@ -23,7 +23,7 @@ public class LongOperation extends AsyncTask<Void, Void, String> {
 	@Override
 	protected String doInBackground(Void... params) {
 		try{
-		GMailSender sender = new GMailSender("mahesh.choutkuri@gmail.com","Sanvi^1108");
+		GMailSender sender = new GMailSender("mahesh.choutkuri@gmail.com","XXXXXX");
         sender.sendMail(sub,msg,to,to); 
 		} 
 		catch(Exception e){Log.e("error",e.getMessage(),e);return "Email Not Sent";}
